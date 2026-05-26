@@ -1,0 +1,84 @@
+GIT AND GITHUB
+==============
+
+1. WHAT IS GIT?
+   Git is a version control system that tracks changes in files.
+   It helps you manage code history and collaborate with others.
+   Git works on your local computer.
+
+2. WHAT IS GITHUB?
+   GitHub is a platform where you can upload and share Git repositories.
+   It's a cloud-based service for storing and managing code.
+   GitHub allows collaboration and provides tools for managing projects.
+
+3. KEY DIFFERENCES:
+   - Git: Local version control tool
+   - GitHub: Remote hosting platform for Git repositories
+
+4. BASIC GIT COMMANDS:
+   
+   git init                      - Initialize a new repository
+   git add <filename>            - Stage changes
+   git commit -m "message"       - Save changes with a message
+   git push                      - Upload changes to GitHub
+   git pull                      - Download changes from GitHub
+   git clone <url>               - Copy a repository from GitHub
+   git status                    - Check status of files
+   git log                       - View commit history
+   git branch                    - Create or list branches
+   git merge <branch>            - Combine branches
+
+5. HOW TO USE GIT AND GITHUB:
+
+   Step 1: Create a local repository
+   $ git init
+
+   Step 2: Create files and add them
+   $ git add .
+
+   Step 3: Commit changes
+   $ git commit -m "First commit"
+
+   Step 4: Create a repository on GitHub
+   (Go to github.com and create new repository)
+
+   Step 5: Connect local repo to GitHub
+   $ git remote add origin https://github.com/username/repo.git
+
+   Step 6: Push to GitHub
+   $ git push -u origin main
+
+   Step 7: Pull changes (if working with others)
+   $ git pull
+
+6. BENEFITS OF GIT AND GITHUB:
+   - Track all changes made to code
+   - Revert to previous versions if needed
+   - Work with multiple people on same project
+   - Keep backup of code online
+   - Easy to share code with others
+   - View who made which changes
+
+7. GIT WORKFLOW:
+   1. Modify files
+   2. Stage changes (git add)
+   3. Commit changes (git commit)
+   4. Push to GitHub (git push)
+   5. Other users can pull changes (git pull)
+
+8. BRANCHES:
+   Branches allow you to work on separate features.
+   Create new branch:    git branch feature-name
+   Switch to branch:     git checkout feature-name
+   Merge branch:         git merge feature-name
+
+9. PULL REQUESTS:
+   A way to propose changes before merging to main branch.
+   Used in team projects for code review.
+   Steps:
+   - Create a new branch
+   - Make changes
+   - Push to GitHub
+   - Open a Pull Request
+   - Wait for review
+   - Merge when approved
